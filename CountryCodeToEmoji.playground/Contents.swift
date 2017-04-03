@@ -76,8 +76,7 @@ for countryCode in countries {
     let last: String = letterDict[String(countryCode.characters.last!)]!
     
     guard let firstCharCode = UInt32(first, radix: 16), let firstUnicode = UnicodeScalar(firstCharCode) else { break }
-    guard let lastCharCode = UInt32(first, radix: 16), let lastUnicode = UnicodeScalar(lastCharCode) else { break }
-
+    guard let lastCharCode = UInt32(last, radix: 16), let lastUnicode = UnicodeScalar(lastCharCode) else { break }
     
     countryUnicode = "\(firstUnicode)" + "\(lastUnicode)"
     emojis[countryCode] = countryUnicode
