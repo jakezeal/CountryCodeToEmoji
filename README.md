@@ -1,6 +1,8 @@
-A country emoji is created with the unicode values of its two shorthand letters. 
+A country emoji is created with the unicode values of its two country shorthand letters. 
+Example: "US"
 
-Convert each country shorthand to its proper emoji.
+Grab the unicode values of all country shorthands and convert them to their corresponding emojis.
+Example: "🇺🇸"
 
 End result for you to use and enjoy:
 
