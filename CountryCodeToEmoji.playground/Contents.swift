@@ -30,7 +30,7 @@ let letterDict: [String: String] = ["A": "1f1e6",
                                     "Y": "1F1FE",
                                     "Z": "1F1FF"]
 
-let countries: [String] = ["AC",
+let countryShorthands: [String] = ["AC",
                              "AD",
                              "AE",
                              "AF",
@@ -70,7 +70,7 @@ let countries: [String] = ["AC",
 
 var emojis: [String: String] = [:]
 
-for countryCode in countries {
+for countryCode in countryShorthands {
     var countryUnicode = ""
     let first: String = letterDict[String(countryCode.characters.first!)]!
     let last: String = letterDict[String(countryCode.characters.last!)]!
