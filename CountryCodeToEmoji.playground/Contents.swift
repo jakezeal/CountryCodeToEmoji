@@ -1,6 +1,7 @@
 //: Playground - noun: a place where people can play
 
-import UIKit
+// A country emoji is created with the unicode values of two letters. 
+// Grab the unicode values of all country shorthands (example: "US") and convert it to its proper emoji (example: "🇺🇸")
 
 let letterDict: [String: String] = ["A": "1f1e6",
                                     "B": "1f1e7",
